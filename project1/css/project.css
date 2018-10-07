@@ -1,0 +1,17 @@
+/* CSS Document */
+
+#game{
+	background: #292929;
+	width: 1200px;
+	height: 650px;
+	display: table-cell;
+	vertical-align: middle;
+	color: #FFFFFF;
+	
+}
+#placeholder{
+	
+	font-family: 'K2D', sans-serif;
+	font-weight: bolder;
+	font-size: 4em;
+}

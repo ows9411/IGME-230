@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Hired Gun Proposal</title>
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="css/proposal.css">
+<link href="https://fonts.googleapis.com/css?family=K2D|Lato" rel="stylesheet">
+	
+	<!-- This is a link to w3 schools css page, i use it mostly for button styling and some other useful css classes
+		 that they have prewritten-->
+	
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	
+</head>
+	
+	
+<body>
+	
+	<div id="parent2">
+		<div id="titleDiv">
+			<h1 id="gametitle">Hired Gun</h1>
+		</div>
+		<div id="navbar">
+		<nav>
+			<a href="index.html" class="w3-button w3-hover-red w3-large w3-round">Home</a> |
+ 			<a href="project.html" class="w3-button w3-hover-red w3-large w3-round">The Project</a> |
+  			<a href="proposal.html" class="w3-button w3-hover-red w3-large w3-round">The Proposal</a> |
+  			<a href="documentation.html" class="w3-button w3-hover-red w3-large w3-round">Documentation</a>
+		</nav>
+		</div>
+		
+		<div class="center">
+		<div class="banner">
+			<div>
+				<img class="mySlides" src="img/stick3.jpg" alt="alt text" title="stick1">
+				<img class="mySlides" src="img/stick2.jpg" alt="alt text" title="stick2">
+				<img class="mySlides" src="img/stick1.jpg" alt="alt text" title="stick3">
+				<img class="mySlides" src="img/barret.gif" alt="alt text" title="barret">
+		
+			</div>
+		</div>
+		</div>
+		
+	</div>
+	
+		<script>
+			//This is just a simple script for a slide show at the top of the page
+			//it just uses the myslides class to automatically cycle images on a button press
+				var slideIndex = 0;
+				carousel();
+
+				function carousel() {
+					
+				var i;
+					
+				var x = document.getElementsByClassName("mySlides");
+					
+				for (i = 0; i < x.length; i++) {
+					x[i].style.display = "none"; 
+				}
+				slideIndex++;
+					
+				if (slideIndex > x.length) {slideIndex = 1} 
+				x[slideIndex-1].style.display = "block"; 
+					
+				setTimeout(carousel, 4000); // 4 secs
+				}
+		</script>
+<div id="parent">
+	<div class="child">
+		<h2 class="titleBox">Concept</h2>
+
+			<ul>
+				<li>It's Hitman but in a browser!</li>
+
+				<li>The game is a sniper simulation with puzzle elements.</li>
+
+				<li>Find your target and eliminate in creative ways to get bonus points!</li>
+			</ul>
+		
+	</div>
+	
+	<div class="child">
+		<h2 class="titleBox">Platform</h2>
+
+			<ul>
+				<li>Desktop only</li>
+				
+				<li>Possible touch screen support</li>
+			</ul>
+	</div>
+	
+	<div class="child">
+		<h2 class="titleBox">Story</h2>
+
+			<ul>
+				<li>You are a contract sniper, the best in your field, working in the middle east for the CIA.</li>
+
+				<li>Your task is to take out high value targets.</li>
+			</ul>
+	</div>
+	
+	<div class="child">
+		<h2 class="titleBox">Style</h2>
+
+			<ul>
+			<li>This game is going to use a basic and simplistic art style, focusing on stick figures to keep the game light</li>
+			</ul>
+	</div>
+	
+	<div class="child">
+		<h2 class="titleBox">Gameplay</h2>
+
+			<h4 class="subtitle">Mechanics</h4>
+
+			<ul>
+				<li>Point and click shooting mechanics using the mouse to move your scope to search your field of view</li>
+			</ul>
+
+			<h4 class="subtitle">Controls</h4>
+
+			<ul>
+				<li>Mouse movement moves scope, left click fires, and mouse wheel zooms in and out</li>
+			</ul>
+	</div>
+	
+	<div class="child">
+		<h2 class="titleBox">Tutorial</h2>
+
+			<ul>
+				<li>There will be an in game Tutorial Level to teach new players the basics of sniping</li>
+			</ul>
+	</div>
+	
+	
+</div>
+	
+		<div class="center">
+		
+		<br>
+			<div id="aboutme">
+			<h2 class="titleBox">About Me</h2>
+
+				<p>My name is Owen Sterling, and I am a second year Game Development and Design major at RIT. I primarily create 2D platforming games in Unity. I am hoping to branch out into level design and world building inside 3D worlds.</p>
+			</div>
+		</div>
+	<br><br><br><br>
+<footer>
+	
+</footer>
+</body>
+</html>

@@ -1,0 +1,57 @@
+/* CSS Document */
+
+/*
+Titles
+font-family: 'K2D', sans-serif;
+Content
+font-family: 'Lato', sans-serif;
+*/
+
+/* This is to get rid of the browsers margins and padding they put so that i can extend elements to the edges of the viewport*/
+
+html, body{margin:0px; padding:0px;}
+
+body{
+	font-family: 'Lato', sans-serif;
+	background: #A72E30;
+	
+}
+header{
+	text-align: left;
+}
+#titleDiv{
+	background: #6F0001;
+	color: #FFFFFF;
+	margin-top:-10px;
+}
+
+#navbar{
+	background: #A72E30;
+	color:#FFFFFF;
+}
+
+#gametitle{
+	font-family: 'K2D', sans-serif;
+	margin-left: 15px;
+	font-weight: bolder;
+	font-size: 3.5em;
+}
+
+#parent2{
+	display: flex;
+	flex-direction: column;
+	
+}
+
+footer{
+	height: 50px;
+  	    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+	background: #6F0001;
+}
+.center{
+	display: flex;
+	justify-content: center;
+}
